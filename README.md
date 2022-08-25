@@ -1,8 +1,17 @@
-# Code-Quiz
+# Code Quiz
 ## Description
-This application will test your knowledge of javascript, css and html! Answer the questions under the time alloted. Each correct question will give you 5 points. Every incorrect question will substract 10 seconds from the timer. At the end, any extra time will be added to the final score. At the end you can save your final score and add to the list of high scores.
+Test your knowledge of HTML, CSS, and Javascript! Select a quiz category you would like to take. Then, click the "Start Quiz!" button to begin the quiz. You will be presented with a multiple-choice question, and will be alerted if you have selected a right or wrong answer. Be careful though, every time you select a wrong answer, you lose 15 points from your score!
 
-    
+The quiz is over when you have completed all questions correctly, or the timer reaches 0. You will then be asked to enter your initials, where you will then be added and sorted into the leaderboards.
+
+## Screenshots of Application
+ ![Photos of application](/Assets/Images/MainMenu.png)
  ![Photos of application](/Assets/Images/Question.png)
+ ![Photos of application](/Assets/Images/FinalScore.png)
+ 
+## Code
+* HTML
+* CSS
+* Javascript
  
 
