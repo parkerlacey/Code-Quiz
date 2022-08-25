@@ -37,15 +37,15 @@ var questions = [
     a: '3. <script>', 
     choices: [{choice: '1. <h1>'}, {choice: '2. <js>'}, {choice: '3. <script>'}, {choice: '4. <head>'}]
   },
-  { q: 'In the code -- setinterval(time(),1000) -- what is time()?', 
-    a: '1. callback function', 
-    choices: [{choice: '1. callback function'}, {choice: '2. undefined'}, {choice: '3. variable'}, {choice: '4. all of the above'}]
+  { q: 'Who invented Javascript?', 
+    a: '3. Brendan Eich', 
+    choices: [{choice: '1. Douglas Crockford'}, {choice: '2. Sheryl Sandberg'}, {choice: '3. Brendan Eich'}, {choice: '4. Parker Lacey'}]
   },
   { q: 'What syntax would call a function?', 
     a: '4. function()', 
     choices: [{choice: '1. var function'}, {choice: '2. function'}, {choice: '3. call function'}, {choice: '4. function()'}]
   },
-  { q: 'When did javascript first appear?', 
+  { q: 'When did Javascript first appear?', 
     a: '1. 1995', 
     choices: [{choice: '1. 1995'}, {choice: '2. 2009'}, {choice: '3. 2005'}, {choice: '4. 2000'}]
   },
@@ -61,6 +61,10 @@ var questions = [
     a: '3. Alerts',
     choices: [{choice: '1. Strings'}, {choice: '2.Booleans'}, {choice: '3. Alerts'}, {choice: '4. Numbers'}]  
   },
+  { q: 'Which event occurs when the user clicks on an HTML element?',
+    a: '1. onclick',
+    choices: [{choice: '1. onclick'}, {choice: '2. onchange'}, {choice: '3. onmouseover'}, {choice: '4. onmouseclick'}]
+  }
 ];
 
 var renderStartPage = function() {
